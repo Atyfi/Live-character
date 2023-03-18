@@ -42,8 +42,13 @@ body{
     resize: none;
 }
 
-p{
+.container .controls{
     width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
     font-size: 18px;
     text-align: right; 
     margin-top: 10px;
